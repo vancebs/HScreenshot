@@ -1,3 +1,6 @@
 [submodule "ImageCompare"]
 	path = ImageCompare
 	url = https://github.com/vancebs/ImageCompare.git
+[submodule "Screenshotter"]
+	path = Screenshotter
+	url = https://github.com/vancebs/Screenshotter.git
