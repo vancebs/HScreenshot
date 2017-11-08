@@ -1,0 +1,3 @@
+[submodule "ImageCompare"]
+	path = ImageCompare
+	url = https://github.com/vancebs/ImageCompare.git
