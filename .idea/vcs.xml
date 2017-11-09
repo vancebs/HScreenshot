@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ImageCompare" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libImageCompare" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libScreenshotter" vcs="Git" />
   </component>
 </project>

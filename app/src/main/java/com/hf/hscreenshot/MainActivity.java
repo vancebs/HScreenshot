@@ -1,8 +1,11 @@
 package com.hf.hscreenshot;
 
 import android.Manifest;
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.media.projection.MediaProjectionManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -17,6 +20,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+
+import in.omerjerk.libscreenshotter.ScreenshotCallback;
+import in.omerjerk.libscreenshotter.Screenshotter;
 
 public class MainActivity extends PermissionActivity {
 
@@ -62,5 +68,17 @@ public class MainActivity extends PermissionActivity {
     @Override
     public void onPermissionGranted() {
 
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Screenshotter.getInstance()
+                .setSize(720, 1280)
+                .takeScreenshot(this, resultCode, data, new ScreenshotCallback() {
+                    @Override
+                    public void onScreenshot(Bitmap bitmap) {
+                        //Enjoy your bitmap
+                    }
+                });
     }
 }

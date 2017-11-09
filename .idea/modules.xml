@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HScreenShot.iml" filepath="$PROJECT_DIR$/HScreenShot.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ImageCompare/imagecompare.iml" filepath="$PROJECT_DIR$/ImageCompare/imagecompare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libImageCompare/libImageCompare.iml" filepath="$PROJECT_DIR$/libImageCompare/libImageCompare.iml" />
+      <module fileurl="file://D:\dev\Online\HScreenShot\libImageCompare\libImageCompare.iml" filepath="D:\dev\Online\HScreenShot\libImageCompare\libImageCompare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libScreenshotter/libScreenshotter.iml" filepath="$PROJECT_DIR$/libScreenshotter/libScreenshotter.iml" />
+      <module fileurl="file://D:\dev\Online\HScreenShot\libScreenshotter\libScreenshotter.iml" filepath="D:\dev\Online\HScreenShot\libScreenshotter\libScreenshotter.iml" />
     </modules>
   </component>
 </project>
